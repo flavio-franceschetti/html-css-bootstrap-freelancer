@@ -188,7 +188,7 @@
       </section>
       <!-- ABOUT section -->
       <section class="about-section">
-        <div class="container p-5 text-center">
+        <div class="container py-5 text-center">
           <!-- about title -->
           <h3 class="text-white text-center fw-bold mb-3">ABOUT</h3>
           <!-- about decoration -->
@@ -200,22 +200,26 @@
             <span class="jumbo-line line">&nbsp;</span>
           </div>
           <!-- about text cols -->
-          <div class="row mb-4 row-cols-1 row-cols-md-2">
-            <div class="col px-5 px-md-2 px-lg-4 px-xl-5">
-              <p class="text-start about-text text-white">
-                Freelancer is a free boostrap theme created by Start Boostrap.
-                The download includes the complete source files including HTML,
-                CSS, and JavaScript as well a optional LESS stylesheets for easy
-                customization.
-              </p>
-            </div>
-            <div class="col px-5 px-md-2 px-lg-4 px-xl-5">
-              <p class="text-start about-text text-white">
-                Freelancer is a free boostrap theme created by Start Boostrap.
-                The download includes the complete source files including HTML,
-                CSS, and JavaScript as well a optional LESS stylesheets for easy
-                customization.
-              </p>
+          <div class="row">
+            <div class="col-10 offset-1">
+              <div class="row mb-4 row-cols-1 row-cols-md-2">
+                <div class="col">
+                  <p class="text-start about-text text-white">
+                    Freelancer is a free boostrap theme created by Start
+                    Boostrap. The download includes the complete source files
+                    including HTML, CSS, and JavaScript as well a optional LESS
+                    stylesheets for easy customization.
+                  </p>
+                </div>
+                <div class="col">
+                  <p class="text-start about-text text-white">
+                    Freelancer is a free boostrap theme created by Start
+                    Boostrap. The download includes the complete source files
+                    including HTML, CSS, and JavaScript as well a optional LESS
+                    stylesheets for easy customization.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <!-- about download btn -->
@@ -228,7 +232,7 @@
       <section class="contact-section container py-5">
         <h3 class="fw-bold mb-3 text-center">CONTACT ME</h3>
         <div
-          class="d-flex justify-content-center mb-3 align-items-center gap-2 gap-md-4 gap-lg-5"
+          class="d-flex justify-content-center mb-5 align-items-center gap-2 gap-md-4 gap-lg-5"
         >
           <span class="line portfolio-line">&nbsp;</span>
           <i class="fa-solid fa-star"></i>
@@ -237,23 +241,27 @@
 
         <!-- form -->
         <div class="row">
-          <div class="col-8 col-md-10 offset-2 offset-md-1">
+          <div class="col-10 offset-1">
             <form>
-                <input
+              <!-- name -->
+              <input
                 class="mb-3 form-control form-control-lg"
                 type="text"
                 placeholder="Name"
               />
+              <!-- email -->
               <input
                 class="mb-3 form-control form-control-lg"
                 type="email"
                 placeholder="Email Address"
               />
+              <!-- phone -->
               <input
                 class="mb-3 form-control form-control-lg"
                 type="tel"
                 placeholder="Phone Number"
               />
+              <!-- message -->
               <div class="form-floating">
                 <textarea
                   class="mb-3 form-control"
@@ -262,12 +270,55 @@
                   style="height: 100px"
                 ></textarea>
                 <label for="floatingTextarea2">Message</label>
-                <input class="btn btn-lg" type="submit" value="Send" />
+              </div>
+              <!-- submit btn -->
+              <input class="btn btn-lg" type="submit" value="Send" />
             </form>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- footer section -->
+    <footer>
+      <div class="top-footer">
+        <div class="container py-5">
+          <div
+            class="row text-white align-items-start text-center row-cols-1 row-cols-md-3"
+          >
+            <div class="col mb-5 mb-md-0">
+              <div class="footer-title-section">LOCATION</div>
+              <div>2215 Jhon Daniel Drive Clark, MO 54243</div>
+            </div>
+            <div class="col mb-5 mb-md-0">
+              <div class="footer-title-section mb-2">AROUND THE WEB</div>
+              <div>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="footer-title-section">ABOUT FREELANCER</div>
+              <div>
+                Freelance is a free to use, open source Boostrap theme created
+                by
+                <a class="foot-name-link text-decoration-none" href="#"
+                  >Start Boostrap</a
+                >.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="container py-5">
+          <div class="copiright text-center text-white">
+            Copyright &copy; Your Website 2024
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
