@@ -85,8 +85,6 @@ header {
   background-color: #333;
 }
 
-.debug {
-  background-color: lightcoral;
-  height: 200px;
+.portfolio-card img {
   border-radius: 20px;
 }
