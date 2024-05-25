@@ -2,6 +2,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* HEADER */
 header {
   background-color: #2c3e50;
@@ -16,12 +20,8 @@ header {
   height: 100%;
 }
 
-.content {
-  background-color: lightcoral;
-}
-
 .logo {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #fff;
   align-content: center;
@@ -38,4 +38,33 @@ header {
 
 .header-a {
   font-size: 14px;
+}
+
+/* MAIN */
+/* jumbotron */
+.jumbo {
+  background-color: #1abc9c;
+}
+
+.jumbo-img {
+  width: 300px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+/* star line */
+.line {
+  display: inline-block;
+  width: 20%;
+  max-width: 300px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.fa-star {
+  color: #fff;
+  font-size: 32px;
 }
