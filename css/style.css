@@ -88,3 +88,8 @@ header {
 .portfolio-card img {
   border-radius: 20px;
 }
+
+/* ABOUT SECTION */
+.about-section {
+  background-color: #1abc9c;
+}
