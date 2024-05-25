@@ -93,3 +93,9 @@ header {
 .about-section {
   background-color: #1abc9c;
 }
+
+/* CONTACT SECTION */
+.contact-section .btn {
+  background-color: #1abc9c;
+  color: #fff;
+}
