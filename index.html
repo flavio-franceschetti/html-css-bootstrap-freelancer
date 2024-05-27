@@ -248,37 +248,52 @@
         <!-- form -->
         <div class="row">
           <div class="col-10 offset-1">
-            <form>
+            <form action="#" method="get">
               <!-- name -->
-              <input
-                class="mb-3 form-control form-control-lg"
-                type="text"
-                placeholder="Name"
-              />
+              <div class="ms_form-floating form-floating mb-3">
+                <input
+                  type="text"
+                  class="ms_form-control form-control"
+                  id="floatingInput"
+                  placeholder="Name"
+                  required
+                />
+                <label class="ms_label" for="floatingInput">Name</label>
+              </div>
               <!-- email -->
-              <input
-                class="mb-3 form-control form-control-lg"
-                type="email"
-                placeholder="Email Address"
-              />
+              <div class="ms_form-floating form-floating mb-3">
+                <input
+                  type="email"
+                  class="ms_form-control form-control"
+                  id="floatingInput"
+                  placeholder="Email"
+                  required
+                />
+                <label class="ms_label" for="floatingInput">Email</label>
+              </div>
               <!-- phone -->
-              <input
-                class="mb-3 form-control form-control-lg"
-                type="tel"
-                placeholder="Phone Number"
-              />
+              <div class="ms_form-floating form-floating mb-3">
+                <input
+                  type="number"
+                  class="ms_form-control form-control"
+                  id="floatingInput"
+                  placeholder="number"
+                  required
+                />
+                <label class="ms_label" for="floatingInput">Phone Number</label>
+              </div>
               <!-- message -->
-              <div class="form-floating">
+              <div class="ms_form-floating form-floating mb-3">
                 <textarea
-                  class="mb-3 form-control"
+                  class="ms_form-control form-control"
                   placeholder="Leave a comment here"
                   id="floatingTextarea2"
-                  style="height: 100px"
+                  style="min-height: 150px"
                 ></textarea>
-                <label for="floatingTextarea2">Message</label>
+                <label class="ms_label" for="floatingTextarea2">Message</label>
               </div>
               <!-- submit btn -->
-              <input class="btn btn-lg" type="submit" value="Send" />
+              <button type="submit" class="btn ms_form-btn">Send</button>
             </form>
           </div>
         </div>

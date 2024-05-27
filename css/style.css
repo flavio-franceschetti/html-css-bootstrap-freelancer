@@ -117,9 +117,30 @@ header {
   background-color: #1abc9c;
 }
 
-/* CONTACT SECTION */
-.contact-section .btn {
+/* FORM SECTION */
+.ms_form-floating > .ms_form-control {
+  height: 80px;
+}
+
+.ms_form-control {
+  font-size: 24px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+.ms_label {
+  font-size: 20px;
+}
+
+.ms_form-btn {
   background-color: #1abc9c;
+  color: #fff;
+  font-size: 24px;
+}
+
+.ms_form-btn:hover {
+  background-color: #75cbba;
   color: #fff;
 }
 
