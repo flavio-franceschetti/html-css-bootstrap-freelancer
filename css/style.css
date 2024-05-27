@@ -90,7 +90,7 @@ header {
 
 .portfolio-card:hover .hover-plus {
   display: inline-block;
-  cursor: po;
+  cursor: pointer;
 }
 
 .hover-plus {
