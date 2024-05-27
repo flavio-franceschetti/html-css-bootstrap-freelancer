@@ -85,6 +85,30 @@ header {
   background-color: #333;
 }
 
+.portfolio-card {
+  position: relative;
+}
+
+.portfolio-card:hover .hover-plus {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hover-plus {
+  border-radius: 20px;
+  display: none;
+  background-color: rgba(26, 188, 156, 0.5);
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  color: #fff;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .portfolio-card img {
   border-radius: 20px;
 }
